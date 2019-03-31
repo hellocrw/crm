@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebContent/exit.jsp=UTF-8
+encoding//src/com/itheima/crm/dao/UserDao.java=UTF-8
+encoding//src/com/itheima/crm/service/UserService.java=UTF-8
+encoding//src/com/itheima/crm/web/action/UserAction.java=UTF-8

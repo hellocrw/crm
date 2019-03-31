@@ -1,0 +1,21 @@
+.button{
+  color:#fff;
+}
+.button-1{
+  width:55px;
+  height:25px;
+  background-color:#00aef2;
+  border-radius: 5px;
+}
+.button-2{
+  width:55px;
+  height:25px;
+  background-color:#00aef2;
+  border-radius: 5px;
+}
+.table-main{
+  width:900px;
+  height:900px;
+  margin:0 auto;
+  padding:20px;
+}

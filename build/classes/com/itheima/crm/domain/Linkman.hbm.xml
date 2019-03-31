@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.itheima.crm.domain.Linkman" table="cst_linkman">
+		<id name="id" column="lkm_id">
+			<generator class="native"/>
+		</id>
+		<property name="name" column="lkm_name"/>
+		<property name="cust_id" column="lkm_cust_id"/>
+		<property name="gender" column="lkm_gender"/>
+		<property name="phone" column="lkm_phone"/>
+		<property name="mobile" column="lkm_mobile"/>
+		<property name="email" column="lkm_email"/>
+		<property name="qq" column="lkm_qq"/>
+		<property name="position" column="lkm_position"/>
+		<property name="memo" column="lkm_memo"/>
+	</class>
+</hibernate-mapping>

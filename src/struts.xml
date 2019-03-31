@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!-- 配置Struts2的常量 -->
+	<constant name="struts.action.extension" value="action"/>
+	
+	<package name="crm" extends="struts-default" namespace="/">
+		<action name="user_regist" class="userAction" method="regist">
+			<result name="login">/login.jsp</result>
+		</action>
+		<action name="user_login" class="userAction" method="login">
+			<result name="index">/index.jsp</result>
+			<result name="login">/login.jsp</result>
+		</action>
+		
+		<action name="customer_save" class="customerAction" method="addCustomer">
+			<result name="save">/jsp/success.jsp</result>
+		</action>
+		<action name="customer_list" class="customerAction" method="listCustomer">
+			<result name="customer">/jsp/customer/list.jsp</result>
+		</action>
+		<action name="customer_delete" class="customerAction" method="deleteCustomer">
+			<result name="delete">/jsp/success.jsp</result>
+		</action>
+		<action name="customer_update" class="customerAction" method="updateCustomer">
+			<result name="update">/jsp/success.jsp</result>
+		</action>
+		
+		<action name="linkman_save" class="linkmanAction" method="addLinkman">
+			<result name="save">/jsp/success.jsp</result>
+		</action>
+		<action name="linkman_list" class="linkmanAction" method="listLinkman">
+			<result name="linkman">/jsp/linkman/list.jsp</result>
+		</action>
+		<action name="linkman_delete" class="linkmanAction" method="deleteLinkman">
+			<result name="delete">/jsp/success.jsp</result>
+		</action>
+		<action name="linkman_update" class="linkmanAction" method="updateLinkman">
+			<result name="update">/jsp/success.jsp</result>
+		</action>
+		
+	</package>
+</struts>

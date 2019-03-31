@@ -1,0 +1,65 @@
+.main{
+  background-image:url(../images/background.gif);
+  background-repeat:repeat;
+  background-attachment: fixed;
+  height:700px;
+}
+.main-box{
+  width:400px;
+  height:300px;
+  background-color:#fff;
+  margin:0 auto;
+  padding:30px;
+  position: relative;
+  top:50px;
+  box-shadow:darkgrey 5px 5px 20px 5px
+}
+.title{
+  font-size:35px;
+  color:grey;
+  text-align:center;
+  padding-top: 80px;
+}
+.label-1{
+  color:grey;
+}
+.text-field-1{
+  position: absolute;
+  top:60px;
+  left:25px;
+  height:35px;
+  width:350px;
+  padding-left:10px;
+  border-radius: 5px;
+  
+}
+.label-2{
+  color:grey;
+  position:absolute;
+  top:110px;
+}
+.text-field-2{
+  position: absolute;
+  top:145px;
+  left:25px;
+  height:35px;
+  padding-left:10px;
+  border-radius: 5px;
+  width:350px;
+}
+.register{
+  position: absolute;
+  top:200px;
+  right:50px;
+}
+.button{
+  position: absolute;
+  top:250px;
+  width:100px;
+  height:35px;
+  background-color:#76baf1;
+  border-radius: 5px;
+  color:#fff;
+  
+}
+
